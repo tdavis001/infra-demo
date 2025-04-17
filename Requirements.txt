@@ -1,2 +1,4 @@
-torch torchvision transformers boto3
-
+torch   
+torchvision
+transformers
+boto3
