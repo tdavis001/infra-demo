@@ -10,7 +10,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 num_epochs = 5
 batch_size = 128
 learning_rate = 1e-3
-cost_per_hour = 0.0556  # $0.0556 per GPU‑hour
+cost_per_hour = 12.43  # $12.43 per GPU‑hour
 
 # CIFAR-10 dataset
 transform = transforms.Compose([
