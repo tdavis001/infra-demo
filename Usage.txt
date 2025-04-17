@@ -1,0 +1,8 @@
+# Train
+python train_demo.py
+
+# Inference
+python inference_demo.py
+
+# Measure startup
+bash measure_startup.sh
