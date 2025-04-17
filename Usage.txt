@@ -25,12 +25,11 @@ git commit -m "Initial demo scripts"
 git branch -M main
 git remote add origin git@github.com:<you>/infra-demo.git
 git push -u origin main
+
 2. On any Linux machine:
 
 
-bash
-Copy
-Edit
+
 git clone https://github.com/<you>/infra-demo.git
 cd infra-demo
 python3 -m venv venv
