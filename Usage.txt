@@ -6,3 +6,50 @@ python inference_demo.py
 
 # Measure startup
 bash measure_startup.sh
+
+Make it executable (measure_startup.sh)
+bash
+Copy
+Edit
+chmod +x measure_startup.sh
+
+Overall Instructions:
+1.Push to GitHub:
+
+bash
+Copy
+Edit
+git init
+git add .
+git commit -m "Initial demo scripts"
+git branch -M main
+git remote add origin git@github.com:<you>/infra-demo.git
+git push -u origin main
+2. On any Linux machine:
+
+
+bash
+Copy
+Edit
+git clone https://github.com/<you>/infra-demo.git
+cd infra-demo
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+aws configure          # for AWS CLI
+
+3. Run the demo programs:
+
+
+python train_demo.py
+python inference_demo.py
+bash measure_startup.sh
+Now we have a self‑contained demo to:
+
+Train a small vision model (ResNet18/CIFAR‑10), logging time & cost at $12.43/hr.
+
+Infer with GPT‑2, logging time & cost at $12.43/hr.
+
+Measure EC2 instance boot time in seconds.
+
+
