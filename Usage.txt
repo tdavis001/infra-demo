@@ -9,16 +9,14 @@ bash measure_startup.sh
 
 Make it executable (measure_startup.sh)
 bash
-Copy
-Edit
+
 chmod +x measure_startup.sh
 
 Overall Instructions:
 1.Push to GitHub:
 
 bash
-Copy
-Edit
+
 git init
 git add .
 git commit -m "Initial demo scripts"
